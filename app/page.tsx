@@ -15,14 +15,28 @@ import ValuesOurFactory from "@/components/home/values";
 import Footer from "@/components/shared/footer";
 import Navbar from "@/components/shared/navbar";
 import Image from "next/image";
+import AnimatedCursor from "react-animated-cursor";
 
 export default function Home() {
   return (
     <div>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={1.7}
+        outerAlpha={0}
+        outerStyle={{
+          border: '1px solid var(--cursor-color)'
+        }}
+        innerStyle={{
+          backgroundColor: 'var(--cursor-color)'
+        }}
+      />
       <Navbar />
       <HomeBanner />
       <NewsMarque />
-      <IntroCard />      
+      <IntroCard />
       <CategoryItems />
       <OurVisionMission />
       <ValuesOurFactory />
