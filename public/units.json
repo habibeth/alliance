@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "categoryName": "Yarn Dyeing",
+        "categoryId": 101,
+        "factoryName": "ABC Garments",
+        "establish": "1990",
+        "certificationImage": "certification_image_url.jpg",
+        "thumbsImage": "thumbs_image_url.jpg",
+        "detailsImage": "details_image_url.jpg",
+        "laboratoryPhysical": "Our laboratory is equipped with state-of-the-art facilities for conducting comprehensive physical and chemical testing. Specializing in yarn dyeing and sewing areas, we ensure accurate color matching, color fastness testing, perspiration testing, rubbing testing, and washing testing to guarantee the highest quality standards in our products.",
+        "dipColorPerDay": 500,
+        "capacitySoftWinding": 1000,
+        "capacityBoth": 800,
+        "capacityHydro": 600,
+        "capacityDryer": 700,
+        "capacityYarnFinishing": 900,
+        "productionCapacity": 5000,
+        "productionCapacityPerMonth": 150000
+    },
+    {
+        "id": 2,
+        "categoryName": "Sewing Thread",
+        "categoryId": 102,
+        "factoryName": "JKL Garments",
+        "establish": "2005",
+        "certificationImage": "certification_image_url.jpg",
+        "thumbsImage": "thumbs_image_url.jpg",
+        "detailsImage": "details_image_url.jpg",
+        "typeSewingThread": "Polyester",
+        "laboratory": {
+            "wetLab": {
+                "description": "Our Web Lab is equipped with the latest technology to develop and manage websites. We specialize in website development and online orders management."
+            },
+            "physicalLab": {
+                "description": "Our Physical Lab is fully equipped with advanced machinery and tools for product testing and quality control. We ensure the highest standards in our sewing processes."
+            }
+        },
+        "capacitySewingThread": 10000,
+        "numberOfMachine": 50
+    },
+    {
+        "id": 3,
+        "categoryName": "knitting",
+        "factoryName": "DEF Fashion",
+        "categoryId": 103,
+        "establish": "2000",
+        "certificationImage": "certification_image_url.jpg",
+        "thumbsImage": "thumbs_image_url.jpg",
+        "detailsImage": "details_image_url.jpg",
+        "availableDia": [
+            "14",
+            "16",
+            "18",
+            "20"
+        ],
+        "gaugeConverter": true,
+        "typeOfFabrics": [
+            "Cotton",
+            "Polyester",
+            "Linen",
+            "Wool"
+        ],
+        "numberOfCircularMachine": 50,
+        "numberOfFlatBedMachine": 30,
+        "numberOfAutoStripeMachine": 10,
+        "capacityMonthly": 100000,
+        "numberOfAutoStripeRibMachine": 5
+    },
+    {
+        "id": 4,
+        "categoryName": "dyeing",
+        "factoryName": "GHI Textiles",
+        "categoryId": 104,
+        "establish": "1995",
+        "certificationImage": "certification_image_url.jpg",
+        "thumbsImage": "thumbs_image_url.jpg",
+        "detailsImage": "details_image_url.jpg",
+        "numberOfBulkDyeingMachine": 15,
+        "sampleDyeingMachine": 5,
+        "monthlyDyeingCapacity": 50000,
+        "numberOfTumbleMachine": 10,
+        "numberOfWashingMachine": 20,
+        "monthlyGarmentsDyeingCapacity": 30000,
+        "monthlyGarmentsWashingCapacity": 40000
+    },
+    {
+        "id": 5,
+        "categoryName": "sewing",
+        "categoryId": 105,
+        "factoryName": "JKL Garments",
+        "establish": "2005",
+        "certificationImage": "certification_image_url.jpg",
+        "thumbsImage": "thumbs_image_url.jpg",
+        "detailsImage": "details_image_url.jpg",
+        "swingLine": "Single",
+        "numberOfMachine": 100,
+        "monthlyCapacity": 10000,
+        "numberOfEmployees": 150
+    },
+    {
+        "id": 6,
+        "categoryName": "washing",
+        "categoryId": 106,
+        "factoryName": "MNO Textiles",
+        "establish": "2010",
+        "certificationImage": "certification_image_url.jpg",
+        "thumbsImage": "thumbs_image_url.jpg",
+        "detailsImage": "details_image_url.jpg",
+        "washCapabilities": [
+            "Stone Wash",
+            "Bleach Wash",
+            "Enzyme Wash",
+            "Acid Wash"
+        ],
+        "dyeTechniqueImg1": "dye_technique_img1_url.jpg",
+        "dyeTechniqueImg2": "dye_technique_img2_url.jpg",
+        "numberOfMachines": 20,
+        "capacityPerMonth": 5000,
+        "numberOfEmployees": 30,
+        "numberOfSampleMachines": 2
+    },
+    {
+        "id": 7,
+        "name": "Fabrics R&D",
+        "categoryId": 107,
+        "description": "Explore the latest developments in fabric research and development. Our team of experts is dedicated to pushing the boundaries of textile innovation.",
+        "thumbs": [
+            {
+                "url": "https://example.com/fabrics_rnd_thumb1.jpg",
+                "alt_text": "Fabrics R&D Thumb 1"
+            },
+            {
+                "url": "https://example.com/fabrics_rnd_thumb2.jpg",
+                "alt_text": "Fabrics R&D Thumb 2"
+            }
+        ]
+    },
+    {
+        "name": "Our Fabric R&D Services",
+        "descriptions": [
+            {
+              "title": "Advanced Fabric Testing",
+              "description": "We utilize state-of-the-art testing methods to analyze fabric properties, including strength, elasticity, moisture absorption, thermal insulation, and chemical resistance, ensuring the highest quality standards."
+            },
+            {
+              "title": "Custom Fabric Development",
+              "description": "Our team collaborates with clients to develop custom fabric solutions tailored to specific needs. From concept to production, we offer comprehensive support to bring your ideas to life."
+            },
+            {
+              "title": "Sustainable Fabric Solutions",
+              "description": "With a focus on sustainability, we research and develop eco-friendly fabric alternatives, reducing environmental impact without compromising performance. Our sustainable fabric solutions aim to meet the growing demand for environmentally responsible materials."
+            },
+            {
+              "title": "Fabric Innovation Consulting",
+              "description": "Leverage our expertise in fabric innovation consulting to stay ahead of the curve. We provide strategic guidance and technical expertise to optimize fabric performance, explore new materials, and enhance production processes."
+            }
+          ],
+        "thumbs": [
+            {
+                "url": "https://example.com/our_fabric_rnd_services_thumb1.jpg",
+                "alt_text": "Our Fabric R&D Services Thumb 1"
+            },
+            {
+                "url": "https://example.com/our_fabric_rnd_services_thumb2.jpg",
+                "alt_text": "Our Fabric R&D Services Thumb 2"
+            }
+        ]
+    }
+]
